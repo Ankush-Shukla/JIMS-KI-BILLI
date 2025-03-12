@@ -28,7 +28,7 @@ async function playNextSong(interaction, guildId) {
     const player = queue.player;
 
     try {
-      const ytDlpPath = "D:\\GitProjects\\Chotu\\bin\\yt-dlp.exe";
+      const ytDlpPath = "JIMS-KI-BILLI\\bin\\yt-dlp.exe";
         const { stdout: videoInfo } = await execAsync(`"${ytDlpPath}" -f "bestaudio[ext=m4a]" -g "${song.url}"`);
         const streamUrl = videoInfo.trim();
 
