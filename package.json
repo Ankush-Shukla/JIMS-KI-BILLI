@@ -6,19 +6,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "deploy": "node deploy-commands.js"
-  
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ankush-Shukla/Chotu.git"
+    "url": "git+https://github.com/Ankush-Shukla/JIMS-KI-BILLI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ankush-Shukla/Chotu/issues"
+    "url": "https://github.com/Ankush-Shukla/JIMS-KI-BILLI/issues"
   },
-  "homepage": "https://github.com/Ankush-Shukla/Chotu#readme",
+  "homepage": "https://github.com/Ankush-Shukla/JIMS-KI-BILLI#readme",
   "description": "",
   "dependencies": {
     "@discordjs/opus": "^0.10.0",
